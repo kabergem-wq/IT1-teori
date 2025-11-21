@@ -5,31 +5,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h1>Bilder består av bildepunkter</h1>
-    <h2>bildepunkter</h2>
-    <p>Bildepunkter også kalt piksler er de små, individuelle punktene som til sammen utgjør et digitalt bilde. Hvert
-        punkt har en fargeverdi, og når mange punkter vises tett sammen, ser vi dem som et sammenhengende bilde. Jo
-        flere bildepunkter et bilde har, desto høyere oppløsning og skarphet. bildepunkter er originalt svart og hvit,
-        der hvor svart er 1 og hvit er 0. </p>
-    <p></p>
+    <div class="container">
+        <div class="bilder">
+            <h1>Bilder og bildepunkter</h1>
+            <p>Digitale bilder er bygd opp av bildepunkter, også kalt piksler. En piksel er det minste punktet i et bilde og
+                inneholder informasjon om farge eller lysstyrke. Når mange piksler vises tett sammen, oppfatter vi dem som
+                et
+                sammenhengende bilde. Jo flere piksler et bilde har, desto høyere blir oppløsningen, og desto skarpere blir
+                bildet. </p>
+            <p>det finnes ulike typer pikselbilder</p>
+            <ul>
+                <li>Binære bilder: svart/hvit, hvor svar=0 og hvit=1</li>
+                <li>Gråtonebilder: 256 nivåer fra svart (0) til hvit (1)</li>
+                <li>Fargebilder: bruker fargemodeller som RGB</li>
+            </ul>
+        </div>
+        <div class="farger">
+            <h2>Farger</h2>
+            <p>får å farge bildepunktene bruker vi som oftest RGA (red, green blue). vi bruker RGB når det gjelder grafikk
+                på
+                skjerm. får å skape en farge med RGB trenger du tre tall. en verdi for red, grønn og blå. verdiene er fra
+                0-255
+                0, 0, 0 er svart og 255, 255, 255 er hvit.</p>
+        </div>
+        <div class="komprimering">
+            <h2>Komprimering</h2>
+            <p>Komprimering av bilder betyr å redusere filstørrelsen slik at bildet blir lettere å lagre, sende og laste inn
+                på
+                nettsider</p>
+            <h3>Typer komprimering</h3>
+            <ul>
+                <li>Tapsfri (lossless): Ingen kvalitet går tapt. Bildet kan gjenopprettes helt. Brukes i f.eks. PNG.</li>
+                <li>Tapsbasert (lossy): Noe kvalitet fjernes for mindre filstørrelse. Brukes i f.eks. JPEG.</li>
+            </ul>
+        </div>
+        <div class="oppsumering">
+            <h2>Oppsummering</h2>
+            <ul>
+                </li>Bilder er bygd av piksler, hver med en farge- eller lysverdi</li>
+                </li>RGB brukes for skjermer (0-255 per fargekanal)</li>
+                </li>Høyere oppløsning = flere piksler = skarpere bilde</li>
+                </li>Lossless komprimering bevarer alt, lossy fjerner noe informasjon for mindre filstørrelse</li>
+            </ul>
+        </div>
+    </div>
 
 
-    <h2>Farger</h2>
-    <p>får å farge bildepunktene bruker vi som oftest RGA (red, green blue). vi bruker RGB når det gjelder grafikk på
-        skjerm. får å skape en farge med RGB trenger du tre tall. en verdi for red, grønn og blå. verdiene er fra 0-255
-        0, 0, 0 er svart og 255, 255, 255 er hvit.</p>
-
-    <h2>Komprimering</h2>
-    <p>Komprimering av bilder betyr å redusere filstørrelsen slik at bildet blir lettere å lagre, sende og laste inn på
-        nettsider</p>
-    <h2>Typer komprimering</h2>
-    <li>
-        <ol>Tapsfri (lossless): Ingen kvalitet går tapt. Bildet kan gjenopprettes helt. Brukes i f.eks. PNG.</ol>
-        <ol>Tapsbasert (lossy): Noe kvalitet fjernes for mindre filstørrelse. Brukes i f.eks. JPEG.</ol>
-    </li>
 
 </body>
 
