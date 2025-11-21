@@ -26,3 +26,77 @@ img{
     width: 100%;
     display: block;
 }
+
+
+
+.bilder{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+    background: linear-gradient(135deg, antiquewhite 0%, #f7c8a0 100%);
+}
+
+
+.farger{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+    padding-top: 30px;
+    background: linear-gradient(135deg, antiquewhite 0%, #f7c8a0 100%);
+}
+
+.komprimering{
+
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    text-align: center;
+    padding-top: 30px;
+    background: linear-gradient(135deg, antiquewhite 0%, #f7c8a0 100%);
+}
+.oppsumering{
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-top: 30px;
+    background: linear-gradient(135deg, antiquewhite 0%, #f7c8a0 100%);
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+
+    background-color: antiquewhite;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 60%;
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    
+    
+}
+
+.container > *{
+    padding: 40px;
+    
+}
