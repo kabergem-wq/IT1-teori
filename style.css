@@ -1,0 +1,28 @@
+:root{
+    --clr-primary-400: hsl(221, 53%, 46%);
+    --clr-secondary-500: hsl(198, 58%, 54%);
+
+    --clr-neutral-100: hsl(195, 50%, 97%);
+    --clr-neutral-200: hsl(197, 51%, 85%);
+    --clr-neutral-800: hsl(197, 20%, 18%);
+
+    --clr-accent-1: hsl(107, 38%, 60%);
+    --clr-accent-2: hsl(51, 38%, 60%);
+    --clr-accent-3: hsl(18, 38%, 60%);
+    --clr-accent-3: hsl(263, 38%, 60%);
+
+    --clr-padding-xs: 4px;
+    --clr-padding-s: 8px;
+    --clr-padding-m: 16px;
+    --clr-padding-l: 24px;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+img{
+    width: 100%;
+    display: block;
+}
