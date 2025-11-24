@@ -14,10 +14,16 @@
         <div class="graf-container glatt"></div>
         <div class="graf-container hakkete"></div>
     </div>
-    <p id="oppsumering">For å lagre og behandle lyd på en datamaskin må lydsingnalene digitaliseres. Da måler vi spenningene etter nivå med antall bit. Lydkvaliteten bestemmes av nøyaktigheten og samplingfrekvensen </p>
+    <p id="oppsumering">For å lagre og behandle lyd på en datamaskin må lydsingnalene digitaliseres. Da måler vi spenningene etter nivå med antall bit. Lydkvaliteten bestemmes av nøyaktigheten og samplingfrekvensen. Denne måten å ta målinger av et analogt lydsignal kalles pulskode-modulasjon, på engelsk forkortet til PCM</p>
 
     <h3>Komprimering</h3>
+    <p>Lagring og sending av lyd krever mye plass. Både tapsfri og ikke helt tapsfri komprimering er gode plassbesparende løsninger. For eksempel kan 6 målinger av PCM-lyd se slik ut: </p>
+    <p class="tall-eksempel"> 24876, 23645, 23899, 24561, 25010, 24890 </p>
+    <p>En av metodene for å spare plass er å lagre den første målingen og så bare ta var på forskjellen mellom følgende måling</p>
+    <p class="tall-eksempel"> 24876, -1231, +254, +662, +449, -120 </p>
+
     <p></p>
+
 
 
 
